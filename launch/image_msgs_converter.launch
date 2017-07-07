@@ -1,0 +1,5 @@
+<launch>
+    <node type="image_msgs_converter.py" pkg="image_msgs_converter" name="image_msgs_converter">
+        <rosparam command="load" file="$(find image_msgs_converter)/cfg/config.yaml"/>
+    </node>
+</launch>

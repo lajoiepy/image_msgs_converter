@@ -1,0 +1,3 @@
+input_topic: "/camera/color/image_raw"
+output_topic: "/camera/color/image_mono"
+output_image_type: "mono8"
